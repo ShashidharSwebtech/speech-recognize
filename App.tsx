@@ -1,13 +1,10 @@
-import * as React from 'react';
-
+import React, {Component} from 'react';
 import Home from './src/components/Home';
 
-
-// const Stack = createStackNavigator();
-export default function App() {
-  return (
-    <>
-    <Home/>
-    </>
-  );
+class App extends Component {
+  render() {
+    return <Home />;
+  }
 }
+
+export default App;
